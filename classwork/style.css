@@ -1,0 +1,61 @@
+body {
+	background-color: #ccd1d6;
+	margin: auto;
+}
+
+.sprite {
+	background-image: url("menu-sprite.jpg");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 415px 205px;
+	display: inline-block;
+	height: 60px;
+	width: 115px;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.home:active .selected {
+	height: 65px;
+	width: 120px;
+	background-position: -3 -130px;
+}
+.home:hover {
+	height: 60px;
+	width: 115px;
+	background-position: -3 -70px; 
+}
+.home {
+	height: 60px;
+	width: 115px;
+	background-position: -3 0;
+}
+.about:active {
+	height: 65px;
+	width: 120px;
+	background-position: -122px -130px;
+}
+.about:hover {
+	height: 65px;
+	width: 120px;
+	background-position: -122px -70px
+}
+.about {
+	height: 60px;
+	width: 120px;
+	background-position: -122px 0;
+}
+.contact:active {
+	height: 65px;
+	width: 160px;
+	background-position: -250px -130px;
+}
+.contact:hover {
+	height: 60px;
+	width: 160px;
+	background-position: -250px -70px;
+}
+.contact {
+	height: 60px;
+	width: 160px;
+	background-position: -250px 0;
+}
